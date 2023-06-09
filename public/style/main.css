@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-image: url(1600px-Usa-world-trade-center-skyscrapers-reflection-night-skyline-cityscape.jpg);
+    background-repeat: no-repeat;
+    display: grid;
+    background-attachment: fixed;
+}
+
+input{
+    border-radius: 50px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    padding: 20px;
+}
+
+a:hover{
+    background-color: rgba(57, 232, 22, 0.75);
+}
+
+ul {
+    list-style: none;
+}
+
+header > nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header > nav > ul {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px 100px;
+    align-items: center;
+    justify-items: center;
+}
+
+header > nav > ul > li > a {
+    color: #fff;
+}
+
+header > nav > ul > li > a:hover {
+    color: #ccc;
+}
+
+#login {
+    grid-column: 3 / 4;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+    width: 300px;
+    margin: 0 auto;
+    border: solid 1px rgb(154, 205, 50);
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: -1px 13px 30px 1px rgba(154,205,50,0.75);
+-webkit-box-shadow: -1px 13px 30px 1px rgba(154,205,50,0.75);
+-moz-box-shadow: -1px 13px 30px 1px rgba(154,205,50,0.75);
+}
+
+form:hover{
+    background-color: rgba(255, 255, 255, 1);;
+}
+
+form > div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+form > label {
+    display: block;
+}
+
+form > input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+form > input:focus {
+    outline: none;
+    border-color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.page404 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page404 > img {
+    width: 100%;
+}
